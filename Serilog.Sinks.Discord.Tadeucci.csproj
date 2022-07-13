@@ -1,0 +1,22 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net6.0</TargetFramework>
+        <Authors>Abolfazl Ejlali, Ângelo Tadeucci</Authors>
+        <Version>1.1.3</Version>
+        <Company></Company>
+        <Product>Serilog Discord Sink - Tadeucci</Product>
+        <NeutralLanguage>aa</NeutralLanguage>
+        <PackageDescription>Serilog sink for Discord.</PackageDescription>
+        <RepositoryUrl>https://github.com/AngeloTadeucci/Serilog-Sinks-Discord</RepositoryUrl>
+        <PackageProjectUrl>https://github.com/AngeloTadeucci/Serilog-Sinks-Discord</PackageProjectUrl>
+        <RootNamespace>Serilog.Sinks.Discord</RootNamespace>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <PackageReference Include="Discord.Net.Webhook" Version="2.3.1" />
+        <PackageReference Include="serilog" Version="2.10.0" />
+    </ItemGroup>
+
+</Project>
+
